@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Neuton:wght@700&family=Open+Sans:ital,wght@0,400;1,600&family=Raleway&family=Ruluko&family=Source+Sans+Pro:wght@200;300&display=swap");
+* {
+  user-select: none;
+}
+
+body {
+  background-color: black;
+}
+
+.Topic {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  font-family: "Cinzel", serif;
+  font-size: 3rem;
+  color: bisque;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+}
+
+.tile {
+  background-color: #eaeaea;
+  width: 100px;
+  height: 100px;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: aliceblue;
+  /* transform: translatex(610px);  */
+}
+.X {
+  background-color: #08d9d6;
+}
+.O {
+  background-color: #ff2e63;
+}
+
+button {
+  font-size: 1.875vw;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  background-color: #150050;
+  border: none;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-radius: 2rem;
+  color: white;
+  /* transform: translateX(700px); */
+}
+
+.Result {
+  text-align: center;
+  padding: 40px;
+  font-family: "Cinzel", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: bisque;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg {
+  z-index: -1;
+  position: absolute;
+}
